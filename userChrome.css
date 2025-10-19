@@ -1,0 +1,35 @@
+#zen-appcontent-navbar-container { 
+    display: flex;
+}
+
+.zen-workspace-tabs-section {
+  &:not(.zen-current-workspace-indicator):not(.zen-essentials-container):has(:nth-child(2)) {
+    padding: var(--zen-toolbox-padding) !important;;
+    width: 100%;
+  }
+}
+
+
+#PersonalToolbar {
+    order: 2 !important;
+}
+
+#PanelUI-button {
+    order: 800 !important;
+}
+
+.titlebar-buttonbox-container {
+    height: auto !important;
+}
+
+#nav-bar {
+    display: contents !important;
+}
+
+#zen-sidebar-top-buttons {
+    display: none !important;
+}
+
+.zen-current-workspace-indicator {
+    display: none !important;
+}
